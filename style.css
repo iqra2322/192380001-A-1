@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.align-center{
+    padding-top:250px;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color:white;
+}
+
+.text-red{
+    color:tomato;
+}
+
+.display-1{
+    font-family: 'Poppins';font-size: 60px;
+   
+}
+
+.display-2{
+
+    font-family: 'Poppins';font-size: 24px;
+   
+    
+}
+
+.btn{
+    padding: 8px 24px;
+    font-size: 18px;
+    border:none;
+}
+
+.btn-red{
+    background-color:red;
+    color:white;
+   
+}
+
+.btn-dark{
+    background-color:black;
+    color:white;
+}
+
+button#exploreBtn:hover{
+    background-color: black;
+}
+
+button#contactBtn:hover{
+    background-color: red;
+}
+
+
+
+.flex-container{
+    text-align: left;
+    width: 50%;
+    
+
+}
+.main{
+    display:flex;
+    background-color:gainsboro;
+}
+.ig{
+text-align: right;
+width: 50%;
+length:100%;
+}
+.hh{
+    text-align:center;
+}
+.next{
+    text-align:center;
+    background-color: gainsboro;
+}
+.ig2{
+    padding: 33px;
+    width: 33%;
+    margin: 50px;
+}
+.ig3{
+    padding: 33px;
+    width: 33%;
+    margin: 50px;
+}
+.ig4{
+    padding: 33px;
+    width: 33%;
+    margin: 50px;
+}
+.navbar{
+    display: flex;
+    background-color:#3a3a3a;
+    position: sticky;
+    top: 0;
+}
+
+nav.navbar > a{
+    padding:20px;
+    color:white;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+nav.navbar > a:hover{
+    background-color:white;
+    color:#3a3a3a;
+    transition: ease-in-out 0.2s;
+}
+.su{
+    padding: 8px 24px;
+    font-size: 18px;
+    border:none;
+    background-color: green;
+}
+.end{
+    background-color: black;
+    text-align: center;
+    color:white;
+    height: 30px;
+    padding: 30px;
+}
+.co{
+    text-align: center;
+}
+.Aus{
+    display: flex;
+
+}
+.bc{
+
+    background-color:gainsboro;
+}
+.na{
+    margin: 300px;
+}
